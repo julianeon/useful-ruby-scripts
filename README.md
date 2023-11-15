@@ -3,8 +3,6 @@
 
 This is a partial list of Ruby scripts that demonstrate my use of the language.
 
-I use Ruby for scripting on my laptop. I find it to be very similar to Python, which I also use.
-
 I've tried to give these files self-explanatory names, and they should run, for the most part, without dependencies (exception: httparty).
 
 Released under an MIT license.
