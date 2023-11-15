@@ -1,7 +1,7 @@
 
 # Useful Ruby Scripts
 
-This is a partial list of Ruby scripts I've created that demonstrate my use of the language.
+This is a partial list of Ruby scripts that demonstrate my use of the language.
 
 I use Ruby for scripting on my laptop. I find it to be very similar to Python, which I also use.
 
