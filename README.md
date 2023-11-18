@@ -37,7 +37,7 @@ This script loops through 100 times and counts the value as a 'win' if it exceed
 
 ## postfix_notation_math.rb
 
-This script does postfile notation math, if you have SBCL (Steel Bank Common Lisp) installed.
+This script does postfix notation math, if you have SBCL (Steel Bank Common Lisp) installed.
 
 You provide it with the input like this:
 
