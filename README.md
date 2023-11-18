@@ -47,7 +47,7 @@ This script sums the amount of values (here, rents) in a file and prints the out
 
 This script replaces every line with a period with that line with a period, and a newline added in.
 
-## show_content_last_modified_file.rb
+## show_contents_last_modified_file.rb
 
 This script prints out the contents of the last modified file in the current directory.
 
