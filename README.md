@@ -45,7 +45,7 @@ You provide it with the input like this:
 
 ## rent_summer.rb
 
-This script sums the amount of values (here, rents) in a file and prints the output.
+This script sums the amount of values (for this use case, rent check amounts) in a file and prints the output.
 
 ## sentence_period_newline_adder.rb
 
