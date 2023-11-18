@@ -47,6 +47,10 @@ This script sums the amount of values (here, rents) in a file and prints the out
 
 This script replaces every line with a period with that line with a period, and a newline added in.
 
+## show_content_last_modified_file.rb
+
+This script prints out the contents of the last modified file in the current directory.
+
 ## sleep_random_time.rb
 
 This script sleeps for a random time (pauses for a random amount of time) before printing a sentence and exiting.
