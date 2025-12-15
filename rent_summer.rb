@@ -1,20 +1,14 @@
-# function to read numbers from the file and calculate the sum
+#!/usr/bin/env ruby
 
-def calculate_sum(file_path)
-  total_sum = 0.0
+fname = ARGV[0]
 
-  File.open(file_path, "r") do |file|
-    file.each_line do |line|
-      number = line.to_f
-      total_sum += number
-    end
-  end
-
-  total_sum.round(2)
+# Open the file and read each line
+total = 0
+File.foreach(fname) do |line|
+  # Convert the line to a float and add to total if it's a valid number
+  number = line.strip
+  total += number.to_f if number.match?(/\A[+-]?\d+(\.\d+)?\z/)
 end
 
-file_path = "file.txt"
-total_sum = calculate_sum(file_path)
-
-puts "Total sum: #{total_sum}"
-
+# Print the result
+puts "Total: #{total}"
